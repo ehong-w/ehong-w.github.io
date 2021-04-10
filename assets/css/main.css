@@ -18,7 +18,7 @@
   box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
   font-family: roboto;
   text-align: center;
-  
+
 
   transition: 0.5s ease;
   cursor: pointer;
@@ -26,7 +26,7 @@
 }
 .card-image {
   grid-area: image;
-  background: url("img1.jpg");
+  background: url("../../images/img1.jpg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
@@ -50,7 +50,7 @@
   font-size:28px;
 }
 .card-stats {
-  grid-area: stats; 
+  grid-area: stats;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
@@ -89,7 +89,7 @@
 
 /*card2*/
 .card-image.card2 {
-  background: url("img2.jpg");
+  background: url("../../images/img2.jpg");
   background-size: cover;
 }
 .card-text.card2 .date {
@@ -104,7 +104,7 @@
 }
 /*card3*/
 .card-image.card3 {
-  background: url("img3.jpg");
+  background: url("../../images/img3.jpg");
   background-size: cover;
 }
 .card-text.card3 .date {
