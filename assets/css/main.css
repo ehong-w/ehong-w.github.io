@@ -37,7 +37,7 @@ body_card {
 }
 .card-image {
   grid-area: image;
-  background: url("../../images/img1.jpg");
+  background: url("../../images/sheep1.png");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
@@ -100,7 +100,7 @@ body_card {
 
 /*card2*/
 .card-image.card2 {
-  background: url("../../images/img2.jpg");
+  background: url("../../images/sheep2.png");
   background-size: cover;
 }
 .card-text.card2 .date {
@@ -115,7 +115,7 @@ body_card {
 }
 /*card3*/
 .card-image.card3 {
-  background: url("../../images/img3.jpg");
+  background: url("../../images/sheep3.png");
   background-size: cover;
 }
 .card-text.card3 .date {
